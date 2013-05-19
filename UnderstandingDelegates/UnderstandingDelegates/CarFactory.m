@@ -51,12 +51,6 @@
 {
     [super layoutSubviews];
     
-    /*
-     
-     you should do this dynamically from the code,
-     
-     */
-    
     carNameLabel.frame = CGRectMake(10, 0, 150, 44);
     
     orderCarButton.frame = CGRectMake(160, 0, 150, 44);

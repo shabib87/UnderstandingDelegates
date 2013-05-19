@@ -23,13 +23,6 @@
     
     MarketViewController *myVC = [[MarketViewController alloc] initWithStyle:UITableViewStylePlain];
     
-    /*
-     
-     we could have just use this myVC as the root view controller, but we would not have any navigation bar to put a title on
-     i am just putting this to show the title
-     
-     */
-    
     UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:myVC];
     
     [myVC release];

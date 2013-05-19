@@ -28,10 +28,6 @@
 {
     [super viewDidLoad];
     
-    /*
-     to show title
-     */
-    
     self.title = @"My Car Market";
 }
 
